@@ -65,6 +65,12 @@ small {
 }
 img { max-width: 100%; }
 
+@-moz-document url-prefix() {
+    img {
+        max-width: 23%;
+    }
+}
+
 /* Media Queries */
 
 /* Column Control Media Queries */
